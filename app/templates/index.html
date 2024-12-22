@@ -1,11 +1,14 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Animal Face Classifier</title>
 </head>
 <body>
-    <h1>Upload an Image</h1>
+    <h1>Animal Face Classifier</h1>
     <form action="/" method="POST" enctype="multipart/form-data">
+        <label for="image">Upload an image:</label>
         <input type="file" name="image" accept="image/*">
         <button type="submit">Classify</button>
     </form>
